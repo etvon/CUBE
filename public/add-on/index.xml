@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Add-Ons on eWeLink CUBE</title>
+    <link>http://localhost:1313/add-on/index.html</link>
+    <description>Recent content in Add-Ons on eWeLink CUBE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Mar 2024 18:29:50 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/add-on/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>eWeLink Smart Home</title>
+      <link>http://localhost:1313/add-on/ewelink-smart-home/index.html</link>
+      <pubDate>Tue, 05 Mar 2024 18:29:50 +0800</pubDate>
+      <guid>http://localhost:1313/add-on/ewelink-smart-home/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Node-red</title>
+      <link>http://localhost:1313/add-on/nodered/index.html</link>
+      <pubDate>Tue, 05 Mar 2024 18:19:09 +0800</pubDate>
+      <guid>http://localhost:1313/add-on/nodered/index.html</guid>
+      <description>Install and Run Go to the Docker menu and install Node-red, if it is not there, click the add button to add. Click the RUN button to run the Node-red, keep parameters default. Open the webUI of Node-red After running, click the &amp;lsquo;More info&amp;rsquo; to go to its detail page. Click the &amp;lsquo;Show in new window&amp;rsquo; button upper right to open its web console on a new tab. Install the ewelink-cube palette On the Node-red page, click the menu upper right, click &amp;lsquo;Manage palette&amp;rsquo;.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.123.4">
+    <meta name="generator" content="Relearn 5.25.0+tip">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Node-Red :: eWeLink CUBE">
+    <meta name="twitter:description" content="Install and Run Go to the Docker menu and install Node-red, if it is not there, click the add button to add. Click the RUN button to run the Node-red, keep parameters default. Open the webUI of Node-red After running, click the &lsquo;More info&rsquo; to go to its detail page. Click the &lsquo;Show in new window&rsquo; button upper right to open its web console on a new tab. Install the ewelink-cube palette On the Node-red page, click the menu upper right, click &lsquo;Manage palette&rsquo;.">
+    <meta property="og:title" content="Node-Red :: eWeLink CUBE">
+    <meta property="og:description" content="Install and Run Go to the Docker menu and install Node-red, if it is not there, click the add button to add. Click the RUN button to run the Node-red, keep parameters default. Open the webUI of Node-red After running, click the &lsquo;More info&rsquo; to go to its detail page. Click the &lsquo;Show in new window&rsquo; button upper right to open its web console on a new tab. Install the ewelink-cube palette On the Node-red page, click the menu upper right, click &lsquo;Manage palette&rsquo;.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://localhost:1313/user-guide/nodered/index.html">
+    <meta property="article:section" content="User Guide :: eWeLink CUBE">
+    <meta property="article:published_time" content="2024-03-05T14:53:12+08:00">
+    <meta property="article:modified_time" content="2024-03-05T14:53:12+08:00">
+    <meta property="og:site_name" content="eWeLink CUBE">
+    <title>Node-Red :: eWeLink CUBE</title>
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1709694644" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1709694644" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1709694644" rel="stylesheet">
+    <link href="/css/auto-complete.css?1709694644" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1709694644" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1709694644" rel="stylesheet">
+    <link href="/css/fonts.css?1709694644" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1709694644" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1709694644" rel="stylesheet">
+    <link href="/css/theme-blue.css?1709694644" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-learn.css?1709694644" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1709694644" rel="stylesheet">
+    <link href="/css/print.css?1709694644" rel="stylesheet" media="print">
+    <link href="/css/ie.css?1709694644" rel="stylesheet">
+    <script src="/js/url.js?1709694644"></script>
+    <script src="/js/variant.js?1709694644"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="/index.search.js";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      window.relearn = window.relearn || {};
+      window.relearn.baseUriFull='http:\/\/localhost:1313/';
+      // variant stuff
+      window.relearn.themeVariantModifier='';
+      window.variants && variants.init( [ 'blue' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/user-guide/nodered/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"><nav class="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#install-and-run">Install and Run</a></li>
+        <li><a href="#open-the-webui-of-node-red">Open the webUI of Node-red</a></li>
+        <li><a href="#install-the-ewelink-cube-palette">Install the ewelink-cube palette</a></li>
+        <li><a href="#get-ihost-access-token">Get iHost access token</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">eWeLink CUBE</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/user-guide/index.html"><span itemprop="name">User Guide</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Node-Red</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/user-guide/index.html" title="User Guide (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/supported-device/index.html" title="Supported Device (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="node-red">Node-Red</h1>
+
+<h3 id="install-and-run">Install and Run</h3>
+<ul>
+<li>Go to the Docker menu and install Node-red, if it is not there, click the add button to add.</li>
+<li>Click the RUN button to run the Node-red, keep parameters default.</li>
+</ul>
+<p><a href="#R-image-1f19029f2707efd43995d1836b0d6e40" class="lightbox-link"><img src="nodered1.jpg" alt="nodered1" class="figure-image noborder lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1f19029f2707efd43995d1836b0d6e40"><img src="nodered1.jpg" alt="nodered1" class="lightbox-image noborder lightbox noshadow" loading="lazy"></a></p>
+<h3 id="open-the-webui-of-node-red">Open the webUI of Node-red</h3>
+<ul>
+<li>After running, click the &lsquo;More info&rsquo; to go to its detail page.</li>
+<li>Click the &lsquo;Show in new window&rsquo; button upper right to open its web console on a new tab.</li>
+</ul>
+<p><a href="#R-image-16aed5e16b0c14a37cf828455a197251" class="lightbox-link"><img src="nodered2.jpg" alt="nodered2" class="figure-image noborder lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-16aed5e16b0c14a37cf828455a197251"><img src="nodered2.jpg" alt="nodered2" class="lightbox-image noborder lightbox noshadow" loading="lazy"></a></p>
+<h3 id="install-the-ewelink-cube-palette">Install the ewelink-cube palette</h3>
+<ul>
+<li>On the Node-red page, click the menu upper right, click &lsquo;Manage palette&rsquo;.</li>
+<li>Switch to &lsquo;Install&rsquo; tab and search for &rsquo;ewelink-cube&rsquo;, install the &rsquo;node-red-contrib-ewelink-cube&rsquo;.</li>
+</ul>
+<p><a href="#R-image-ec57ee44ef0e8bdceb4635f199e4ea36" class="lightbox-link"><img src="nodered3.jpg" alt="nodered3" class="figure-image noborder lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ec57ee44ef0e8bdceb4635f199e4ea36"><img src="nodered3.jpg" alt="nodered3" class="lightbox-image noborder lightbox noshadow" loading="lazy"></a></p>
+<h3 id="get-ihost-access-token">Get iHost access token</h3>
+<ul>
+<li>Drag and drop the &lsquo;get-devices&rsquo; node and &lsquo;debug&rsquo; node, connect them.</li>
+<li>Double click on the &lsquo;get-devices&rsquo; to edit.</li>
+</ul>
+<p><a href="#R-image-f81b3a73321ad72bbe5452b671221e65" class="lightbox-link"><img src="nodered4.jpg" alt="nodered4" class="figure-image noborder lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f81b3a73321ad72bbe5452b671221e65"><img src="nodered4.jpg" alt="nodered4" class="lightbox-image noborder lightbox noshadow" loading="lazy"></a></p>
+<ul>
+<li>Click the edit button to add a new server.</li>
+</ul>
+<p><a href="#R-image-229a68f14123848b3b20dac38b5fe2f9" class="lightbox-link"><img src="nodered5.jpg" alt="nodered5" class="figure-image noborder lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-229a68f14123848b3b20dac38b5fe2f9"><img src="nodered5.jpg" alt="nodered5" class="lightbox-image noborder lightbox noshadow" loading="lazy"></a></p>
+<ul>
+<li>Enter your iHost IP and click the search button, then click &lsquo;GET TOKEN&rsquo;</li>
+</ul>
+<p><a href="#R-image-fbac597532ffa208335ab104a6228947" class="lightbox-link"><img src="nodered6.jpg" alt="nodered6" class="figure-image noborder lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-fbac597532ffa208335ab104a6228947"><img src="nodered6.jpg" alt="nodered6" class="lightbox-image noborder lightbox noshadow" loading="lazy"></a></p>
+<ul>
+<li></li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+
+<img src="/CUBElogowhite.png" alt="CUBE">     
+
+
+        </div>
+        <form action="/search.html" method="get"><div class="searchbox default-animation">
+          <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+          <label class="a11y-only" for="R-search-by">Search</label>
+          <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+          <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+        </div></form>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="/js/auto-complete.js?1709694644" defer></script>
+        <script src="/js/lunr/lunr.min.js?1709694644" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1709694644" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1709694644" defer></script>
+        <script src="/js/lunr/lunr.en.min.js?1709694644" defer></script>
+        <script src="/js/search.js?1709694644" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <ul>
+          <li><a class="padding" href="/index.html"><i class="fas fa-home"></i> Home</a></li>
+        </ul>
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-topics">
+          <ul class="enlarge morespace collapsible-menu">
+          <li data-nav-id="/1-whats-new/index.html" class=""><a class="padding" href="/1-whats-new/index.html">What&#39;s NEW</a><ul id="R-subsections-c3c76bf1da4e377a806be0345bab6be1" class="morespace collapsible-menu">
+          <li data-nav-id="/1-whats-new/official-release-notes/index.html" class=""><a class="padding" href="/1-whats-new/official-release-notes/index.html">Official Release Note</a></li>
+          <li data-nav-id="/1-whats-new/forum/index.html" class=""><a class="padding" href="/1-whats-new/forum/index.html">eWeLink Forum</a></li></ul></li>
+          <li data-nav-id="/user-guide/index.html" class="parent "><a class="padding" href="/user-guide/index.html">User Guide</a><ul id="R-subsections-d6fec25116b4d5e6be18ed86b8fad672" class="morespace collapsible-menu">
+          <li data-nav-id="/user-guide/nodered/index.html" class="active"><a class="padding" href="/user-guide/nodered/index.html">Node-Red</a></li></ul></li>
+          <li data-nav-id="/supported-device/index.html" class=""><a class="padding" href="/supported-device/index.html">Supported Device</a></li>
+          <li data-nav-id="/add-on/index.html" class=""><a class="padding" href="/add-on/index.html">Add-Ons</a><ul id="R-subsections-03ed60d87f287cc4b1455092ea044882" class="morespace collapsible-menu">
+          <li data-nav-id="/add-on/ewelink-smart-home/index.html" class=""><a class="padding" href="/add-on/ewelink-smart-home/index.html">eWeLink Smart Home</a></li>
+          <li data-nav-id="/add-on/nodered/index.html" class=""><a class="padding" href="/add-on/nodered/index.html">Node-red</a></li></ul></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fas fa-language fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = baseUri + this.value;">
+                      <option id="R-en" value="/user-guide/nodered/index.html" lang="en-us" selected></option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fas fa-paint-brush fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-blue" value="blue" selected>Blue</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fas fa-history fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+	    <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1709694644" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1709694644" defer></script>
+    <script src="/js/theme.js?1709694644" defer></script>
+  </body>
+</html>

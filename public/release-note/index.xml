@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>What&#39;s NEW on eWeLink CUBE</title>
+    <link>http://localhost:1313/release-note/index.html</link>
+    <description>Recent content in What&#39;s NEW on eWeLink CUBE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Mar 2024 17:17:29 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/release-note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Official Release Note</title>
+      <link>http://localhost:1313/release-note/1/index.html</link>
+      <pubDate>Mon, 04 Mar 2024 17:17:29 +0800</pubDate>
+      <guid>http://localhost:1313/release-note/1/index.html</guid>
+      <description>V1.13.3 (2024.1.31) Optimizations:
+Optimized the display of SNZB-06P detection time interval. Bug Fixes:
+Fixed an issue where the volume list was empty in some cases. Fixed an issue where Tailscale&amp;rsquo;s UI could not be displayed in some cases. V1.13.2 (2024.1.23) New Features:
+Custom language is available. Now your iHost can display in the language you want by uploading language files, check it under Settings menu. Optimizations:
+Optimized the UI of the Smart Security page.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/1-whats-new/index.html</loc>
+    <lastmod>2024-03-05T17:50:29+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/user-guide/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/supported-device/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/add-on/index.html</loc>
+    <lastmod>2024-03-05T18:29:50+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/index.html</loc>
+    <lastmod>2024-03-05T18:29:50+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/add-on/ewelink-smart-home/index.html</loc>
+    <lastmod>2024-03-05T18:29:50+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/add-on/nodered/index.html</loc>
+    <lastmod>2024-03-05T18:19:09+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/1-whats-new/official-release-notes/index.html</loc>
+    <lastmod>2024-03-05T17:50:29+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/1-whats-new/forum/index.html</loc>
+    <lastmod>2024-03-05T17:23:54+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/index.html</loc>
+  </url>
+</urlset>
