@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>What&#39;s NEW on eWeLink CUBE</title>
+    <link>http://localhost:1313/1-whats-new/index.html</link>
+    <description>Recent content in What&#39;s NEW on eWeLink CUBE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Mar 2024 17:50:29 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/1-whats-new/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Official Release Note</title>
+      <link>http://localhost:1313/1-whats-new/official-release-notes/index.html</link>
+      <pubDate>Tue, 05 Mar 2024 17:50:29 +0800</pubDate>
+      <guid>http://localhost:1313/1-whats-new/official-release-notes/index.html</guid>
+      <description>V1.13.3 (2024.1.31) Optimizations:
+Optimized the display of SNZB-06P detection time interval. Bug Fixes:
+Fixed an issue where the volume list was empty in some cases. Fixed an issue where Tailscale&amp;rsquo;s UI could not be displayed in some cases. V1.13.2 (2024.1.23) New Features:
+Custom language is available. Now your iHost can display in the language you want by uploading language files, check it under Settings menu. Optimizations:
+Optimized the UI of the Smart Security page.</description>
+    </item>
+    <item>
+      <title>eWeLink Forum</title>
+      <link>http://localhost:1313/1-whats-new/forum/index.html</link>
+      <pubDate>Tue, 05 Mar 2024 17:23:54 +0800</pubDate>
+      <guid>http://localhost:1313/1-whats-new/forum/index.html</guid>
+      <description>Welcome to the official eWeLink Forum, a vibrant community where users can discuss, share insights, and seek support for all things related to eWeLink products, including the innovative eWeLink CUBE.
+eWeLink Forum
+eWeLink Forum - CUBE catagory
+We encourage you to participate actively in the discussions, ask questions, and share your experiences with the eWeLink CUBE and other eWeLink products. Our knowledgeable community members are always eager to assist and provide valuable feedback.</description>
+    </item>
+  </channel>
+</rss>

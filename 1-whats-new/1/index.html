@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.123.4">
+    <meta name="generator" content="Relearn 5.25.0+tip">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Official Release Note :: eWeLink CUBE">
+    <meta name="twitter:description" content="V1.13.3 (2024.1.31) Optimizations:
+Optimized the display of SNZB-06P detection time interval. Bug Fixes:
+Fixed an issue where the volume list was empty in some cases. Fixed an issue where Tailscale&rsquo;s UI could not be displayed in some cases. V1.13.2 (2024.1.23) New Features:
+Custom language is available. Now your iHost can display in the language you want by uploading language files, check it under Settings menu. Optimizations:
+Optimized the UI of the Smart Security page.">
+    <meta property="og:title" content="Official Release Note :: eWeLink CUBE">
+    <meta property="og:description" content="V1.13.3 (2024.1.31) Optimizations:
+Optimized the display of SNZB-06P detection time interval. Bug Fixes:
+Fixed an issue where the volume list was empty in some cases. Fixed an issue where Tailscale&rsquo;s UI could not be displayed in some cases. V1.13.2 (2024.1.23) New Features:
+Custom language is available. Now your iHost can display in the language you want by uploading language files, check it under Settings menu. Optimizations:
+Optimized the UI of the Smart Security page.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://localhost:1313/1-whats-new/1/index.html">
+    <meta property="article:section" content="What&#39;s NEW :: eWeLink CUBE">
+    <meta property="article:published_time" content="2024-03-04T17:17:29+08:00">
+    <meta property="article:modified_time" content="2024-03-04T17:17:29+08:00">
+    <meta property="og:site_name" content="eWeLink CUBE">
+    <title>Official Release Note :: eWeLink CUBE</title>
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1709630517" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1709630517" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1709630517" rel="stylesheet">
+    <link href="/css/auto-complete.css?1709630517" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1709630517" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1709630517" rel="stylesheet">
+    <link href="/css/fonts.css?1709630517" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1709630517" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1709630517" rel="stylesheet">
+    <link href="/css/theme-blue.css?1709630517" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-learn.css?1709630517" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1709630517" rel="stylesheet">
+    <link href="/css/print.css?1709630517" rel="stylesheet" media="print">
+    <link href="/css/ie.css?1709630517" rel="stylesheet">
+    <script src="/js/url.js?1709630517"></script>
+    <script src="/js/variant.js?1709630517"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="/index.search.js";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      window.relearn = window.relearn || {};
+      window.relearn.baseUriFull='http:\/\/localhost:1313/';
+      // variant stuff
+      window.relearn.themeVariantModifier='';
+      window.variants && variants.init( [ 'blue' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/1-whats-new/1/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">eWeLink CUBE</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/1-whats-new/index.html"><span itemprop="name">What&#39;s NEW</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Official Release Note</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/1-whats-new/index.html" title="What&#39;s NEW (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/user-guide/index.html" title="User Guide (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="official-release-note">Official Release Note</h1>
+
+<h4 id="v1133-2024131">V1.13.3 (2024.1.31)</h4>
+<p><strong>Optimizations:</strong></p>
+<ul>
+<li>Optimized the display of SNZB-06P detection time interval.</li>
+</ul>
+<p><strong>Bug Fixes:</strong></p>
+<ul>
+<li>Fixed an issue where the volume list was empty in some cases.</li>
+<li>Fixed an issue where Tailscale&rsquo;s UI could not be displayed in some cases.</li>
+</ul>
+<h4 id="v1132-2024123">V1.13.2 (2024.1.23)</h4>
+<p><strong>New Features:</strong></p>
+<ul>
+<li>Custom language is available. Now your iHost can display in the language you want by uploading language files, check it under Settings menu.</li>
+</ul>
+<p><strong>Optimizations:</strong></p>
+<ul>
+<li>Optimized the UI of the Smart Security page.</li>
+<li>Optimized the firmware update process.</li>
+<li>Added &lsquo;About&rsquo; menu to installed add-ons page.</li>
+</ul>
+<p><strong>Bug Fixes:</strong></p>
+<ul>
+<li>Fixed the issue where add-ons couldn&rsquo;t load the Web UI.</li>
+<li>Fixed the bug that Matter Bridge could not initialize after restarting iHost in muted state.</li>
+<li>Fixed an issue where the names of devices synchronized via Matter Bridge changed after iHost was restarted.</li>
+</ul>
+<h4 id="v1130-20231226">V1.13.0 (2023.12.26)</h4>
+<p><strong>New Features:</strong></p>
+<ul>
+<li>Now you can drag and drop the scence actions to rearrange their order.</li>
+<li>Support for adding SNZB-03P Motion Sensor, SNZB-04P Door/Window Sensor, and NSPanelP-Router.</li>
+<li>Paral-sync add-on now supports SNZB-03P Motion Sensor, SNZB-04P Door/Window Sensor, SNZB-02D Temp.&amp;Humi. Sensor, and TRVZB Thermostatic Remote Valve (please update Paral-sync add-on to the latest version on its detail page).</li>
+<li>eWeLink Smart Home add-on now supports cloud control of some devices and LAN control of more sensor and light sub-devices of SONOFF Zigbee Bridge Pro. (please update eWeLink Smart Home add-on to the latest version on its detail page).</li>
+</ul>
+<p><strong>Optimizations:</strong></p>
+<ul>
+<li>Increased the limit of CAST dashboards to 10.</li>
+<li>Optimized logic for adding, deleting, and synchronizing RF remote controllers in eWeLink Smart Home add-on.</li>
+<li>Sidebar UI design optimized. Added an entry to open add-on page in a new window.</li>
+</ul>
+<p><strong>Bug Fixes:</strong></p>
+<ul>
+<li>Resolved the issue where the same device couldn&rsquo;t repeatedly be used as scene actions in a scene.</li>
+<li>Fixed the bug where Temp.&amp;Humi. sensors couldn&rsquo;t save 1 decimal place as scene triggers.</li>
+<li>Fixed the occasional pairing issue with Matter Bridge.</li>
+<li>Resolved the problem where device names changed in Matter-supported platforms after iHost was restarted.</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+
+<img src="/CUBElogowhite.png" alt="CUBE">     
+
+
+        </div>
+        <form action="/search.html" method="get"><div class="searchbox default-animation">
+          <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+          <label class="a11y-only" for="R-search-by">Search</label>
+          <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+          <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+        </div></form>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="/js/auto-complete.js?1709630517" defer></script>
+        <script src="/js/lunr/lunr.min.js?1709630517" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1709630517" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1709630517" defer></script>
+        <script src="/js/lunr/lunr.en.min.js?1709630517" defer></script>
+        <script src="/js/search.js?1709630517" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <ul>
+          <li><a class="padding" href="/index.html"><i class="fas fa-home"></i> Home</a></li>
+        </ul>
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-topics">
+          <ul class="enlarge morespace collapsible-menu">
+          <li data-nav-id="/1-whats-new/index.html" class="parent "><a class="padding" href="/1-whats-new/index.html">What&#39;s NEW</a><ul id="R-subsections-c3c76bf1da4e377a806be0345bab6be1" class="morespace collapsible-menu">
+          <li data-nav-id="/1-whats-new/1/index.html" class="active"><a class="padding" href="/1-whats-new/1/index.html">Official Release Note</a></li></ul></li>
+          <li data-nav-id="/user-guide/index.html" class=""><a class="padding" href="/user-guide/index.html">User Guide</a><ul id="R-subsections-d6fec25116b4d5e6be18ed86b8fad672" class="morespace collapsible-menu">
+          <li data-nav-id="/user-guide/nodered/index.html" class=""><a class="padding" href="/user-guide/nodered/index.html">Node-Red</a></li></ul></li>
+          <li data-nav-id="/supported-device/index.html" class=""><a class="padding" href="/supported-device/index.html">Supported Device</a></li>
+          <li data-nav-id="/add-on/index.html" class=""><a class="padding" href="/add-on/index.html">Add On</a></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fas fa-language fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = baseUri + this.value;">
+                      <option id="R-en" value="/1-whats-new/1/index.html" lang="en-us" selected></option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fas fa-paint-brush fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-blue" value="blue" selected>Blue</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fas fa-history fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+	    <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1709630517" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1709630517" defer></script>
+    <script src="/js/theme.js?1709630517" defer></script>
+  </body>
+</html>
