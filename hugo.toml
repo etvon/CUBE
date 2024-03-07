@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://etvon.github.io/CUBE/index.html'
 languageCode = 'en-us'
 title = 'eWeLink CUBE'
 theme = 'hugo-theme-relearn'

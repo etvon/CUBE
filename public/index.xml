@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>eWeLink CUBE</title>
-    <link>http://localhost:1313/index.html</link>
+    <link>http://localhost:1313/CUBE/index.html/index.html</link>
     <description>Recent content on eWeLink CUBE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Mar 2024 18:29:50 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/CUBE/index.html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What&#39;s NEW</title>
-      <link>http://localhost:1313/1-whats-new/index.html</link>
+      <link>http://localhost:1313/CUBE/index.html/1-whats-new/index.html</link>
       <pubDate>Tue, 05 Mar 2024 17:50:29 +0800</pubDate>
-      <guid>http://localhost:1313/1-whats-new/index.html</guid>
+      <guid>http://localhost:1313/CUBE/index.html/1-whats-new/index.html</guid>
       <description>Check the Release Notes or Visit the eWeLink Forum to learn what&amp;rsquo;s new in recent updates of eWeLink CUBE.
 Official Release Notes
 eWeLink Forum</description>
     </item>
     <item>
       <title>User Guide</title>
-      <link>http://localhost:1313/user-guide/index.html</link>
+      <link>http://localhost:1313/CUBE/index.html/user-guide/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/user-guide/index.html</guid>
+      <guid>http://localhost:1313/CUBE/index.html/user-guide/index.html</guid>
       <description>Here are some documents or videos about eWeLink CUBE powered products.
 SONOFF iHost User Guides
 eWeLink Youtube Channel</description>
     </item>
     <item>
       <title>Supported Device</title>
-      <link>http://localhost:1313/supported-device/index.html</link>
+      <link>http://localhost:1313/CUBE/index.html/supported-device/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/supported-device/index.html</guid>
+      <guid>http://localhost:1313/CUBE/index.html/supported-device/index.html</guid>
       <description>Lorem Ipsum.</description>
     </item>
     <item>
       <title>Add-Ons</title>
-      <link>http://localhost:1313/add-on/index.html</link>
+      <link>http://localhost:1313/CUBE/index.html/add-on/index.html</link>
       <pubDate>Tue, 05 Mar 2024 18:29:50 +0800</pubDate>
-      <guid>http://localhost:1313/add-on/index.html</guid>
+      <guid>http://localhost:1313/CUBE/index.html/add-on/index.html</guid>
       <description>What is an Add-on? It is any third-party software program or script that is added to a program to give it additional features and abilities.
 Add-ons in eWeLink CUBE Add-ons allow the user to extend the functionality around eWeLink CUBE by installing additional applications. This can be running an application that eWeLink CUBE can integrate with (like Node-red). Add-ons can be added via the Docker menu in eWeLink CUBE.</description>
     </item>

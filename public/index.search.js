@@ -5,7 +5,7 @@ var relearn_search_index = [
     "description": "",
     "tags": null,
     "title": "What's NEW",
-    "uri": "/1-whats-new/index.html"
+    "uri": "/CUBE/index.html/1-whats-new/index.html"
   },
   {
     "breadcrumb": "eWeLink CUBE",
@@ -13,7 +13,7 @@ var relearn_search_index = [
     "description": "",
     "tags": null,
     "title": "User Guide",
-    "uri": "/user-guide/index.html"
+    "uri": "/CUBE/index.html/user-guide/index.html"
   },
   {
     "breadcrumb": "eWeLink CUBE",
@@ -21,7 +21,7 @@ var relearn_search_index = [
     "description": "",
     "tags": null,
     "title": "Supported Device",
-    "uri": "/supported-device/index.html"
+    "uri": "/CUBE/index.html/supported-device/index.html"
   },
   {
     "breadcrumb": "eWeLink CUBE",
@@ -29,7 +29,7 @@ var relearn_search_index = [
     "description": "",
     "tags": null,
     "title": "Add-Ons",
-    "uri": "/add-on/index.html"
+    "uri": "/CUBE/index.html/add-on/index.html"
   },
   {
     "breadcrumb": "",
@@ -37,7 +37,7 @@ var relearn_search_index = [
     "description": "",
     "tags": null,
     "title": "eWeLink CUBE",
-    "uri": "/index.html"
+    "uri": "/CUBE/index.html/index.html"
   },
   {
     "breadcrumb": "eWeLink CUBE \u003e Add-Ons",
@@ -45,7 +45,7 @@ var relearn_search_index = [
     "description": "",
     "tags": null,
     "title": "eWeLink Smart Home",
-    "uri": "/add-on/ewelink-smart-home/index.html"
+    "uri": "/CUBE/index.html/add-on/ewelink-smart-home/index.html"
   },
   {
     "breadcrumb": "eWeLink CUBE \u003e Add-Ons",
@@ -53,7 +53,7 @@ var relearn_search_index = [
     "description": "",
     "tags": null,
     "title": "Node-red",
-    "uri": "/add-on/nodered/index.html"
+    "uri": "/CUBE/index.html/add-on/nodered/index.html"
   },
   {
     "breadcrumb": "eWeLink CUBE \u003e What's NEW",
@@ -61,7 +61,7 @@ var relearn_search_index = [
     "description": "",
     "tags": null,
     "title": "Official Release Note",
-    "uri": "/1-whats-new/official-release-notes/index.html"
+    "uri": "/CUBE/index.html/1-whats-new/official-release-notes/index.html"
   },
   {
     "breadcrumb": "eWeLink CUBE \u003e What's NEW",
@@ -69,7 +69,7 @@ var relearn_search_index = [
     "description": "",
     "tags": null,
     "title": "eWeLink Forum",
-    "uri": "/1-whats-new/forum/index.html"
+    "uri": "/CUBE/index.html/1-whats-new/forum/index.html"
   },
   {
     "breadcrumb": "eWeLink CUBE",
@@ -77,7 +77,7 @@ var relearn_search_index = [
     "description": "",
     "tags": null,
     "title": "Categories",
-    "uri": "/categories/index.html"
+    "uri": "/CUBE/index.html/categories/index.html"
   },
   {
     "breadcrumb": "eWeLink CUBE",
@@ -85,6 +85,6 @@ var relearn_search_index = [
     "description": "",
     "tags": null,
     "title": "Tags",
-    "uri": "/tags/index.html"
+    "uri": "/CUBE/index.html/tags/index.html"
   }
 ]
